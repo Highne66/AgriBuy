@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f4f6fc;
+    background-color: #0d3864;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f6fc;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3959a1;
+    padding: 1em;
+}
+
+nav .logo h1 {
+    margin: 0;
+    color: #f4f6fc;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 1em;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(45deg, #47c5fb, #3959a1);
+    color: #f4f6fc;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero-section .cta-button {
+    background: #3959a1;
+    color: #f4f6fc;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero-section .cta-button:hover {
+    background: #47c5fb;
+}
+
+/* Products Section */
+.products-section {
+    text-align: center;
+    padding: 3em 1em;
+    background: #0d3864;
+    color: #f4f6fc;
+}
+
+.products-section .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.products-section .product-item {
+    background: #3959a1;
+    border-radius: 10px;
+    padding: 1em;
+    max-width: 300px;
+    color: #f4f6fc;
+    transition: transform 0.3s;
+}
+
+.products-section .product-item:hover {
+    transform: scale(1.05);
+}
+
+.products-section .product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about-section {
+    background: #3959a1;
+    color: #f4f6fc;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #0d3864;
+    color: #f4f6fc;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background: #3959a1;
+    color: #f4f6fc;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-section button:hover {
+    background: #47c5fb;
+}
+
+/* Footer */
+footer {
+    background: #3959a1;
+    color: #f4f6fc;
+    text-align: center;
+    padding: 1em;
+}
